@@ -21,13 +21,13 @@ const TopNav = () => {
             <a href="/categories" className="nav-item nav-link">
               Categories
             </a>
-            <a href="#!" className="nav-item nav-link">
+            <a href="/brands" className="nav-item nav-link">
               Brands
             </a>
-            <a href="#!" className="nav-item nav-link">
+            <a href="/luxe" className="nav-item nav-link">
               Luxe
             </a>
-            <a href="#!" className="nav-item nav-link" tabIndex={"-1"}>
+            <a href="/beautyadvice" className="nav-item nav-link" tabIndex={"-1"}>
               Beauty Advice
             </a>
           </div>

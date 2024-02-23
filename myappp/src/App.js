@@ -1,21 +1,23 @@
 import "./App.css";
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
 import AdBanner from "./Layout/AdBanner";
 import TopNav from "./Layout/TopNav";
 import Login from "./Authentication/Login";
-import Register from './Authentication/Register';
-import Resetpassword from './Authentication/ResetPassword';
+import Register from "./Authentication/Register";
+import Resetpassword from "./Authentication/ResetPassword";
+import Footer from "./Layout/Footer";
 
 function App() {
   return (
     <div className="App">
-      <AdBanner/>
-      <TopNav/>
+      <AdBanner />
+      <TopNav />
       <Routes>
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/resetpassword' element={<Resetpassword />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/resetpassword" element={<Resetpassword />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
